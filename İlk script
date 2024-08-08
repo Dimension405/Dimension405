@@ -1,0 +1,8 @@
+while true do
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer.Character
+}
+
+game:GetService("ReplicatedStorage").givekill:FireServer(unpack(args))
+wait(1)
+end
