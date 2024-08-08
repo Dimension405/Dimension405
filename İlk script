@@ -4,5 +4,5 @@ while true do
 }
 
 game:GetService("ReplicatedStorage").givekill:FireServer(unpack(args))
-wait(1)
+wait(0.4)
 end
