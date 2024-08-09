@@ -1,0 +1,8 @@
+while true do
+    local args = {
+    [1] = "Roll"
+}
+
+game:GetService("ReplicatedStorage").RE:FireServer(unpack(args))
+wait(2)
+end
