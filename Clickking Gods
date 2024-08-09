@@ -1,0 +1,4 @@
+while true do
+    workspace.Events.AddClick:FireServer()
+    wait(0.001)
+    end
