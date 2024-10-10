@@ -1,0 +1,9 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Lheny hub",
+   LoadingTitle = "Arrayfield Interface Suite",
+   LoadingSubtitle = "by Arrays",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Arrayfield"
